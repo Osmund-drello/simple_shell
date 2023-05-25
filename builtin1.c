@@ -5,7 +5,7 @@
  *              with line numbers, starting at 0.
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
- *  Return: Always 0
+ *  Return: Always 0.
  */
 int _myhistory(info_t *info)
 {
@@ -14,11 +14,10 @@ int _myhistory(info_t *info)
 }
 
 /**
- * unset_alias - sets the alias to the string
- * @info: parameter struct
- * @str: the string alias
- *
- * Return: Always 0 on success, 1 on error
+ * unset_alias - sets the alias to the string.
+ * @info: parameter struct.
+ * @str: the string alias.
+ * Return: Always 0 on success, 1 on error.
  */
 int unset_alias(info_t *info, char *str)
 {
@@ -37,11 +36,10 @@ int unset_alias(info_t *info, char *str)
 }
 
 /**
- * set_alias - sets the alias to the string
- * @info: parameter struct
- * @str: the string alias
- *
- * Return: Always 0 on success, 1 on error
+ * set_alias - sets the alias to the string.
+ * @info: parameter struct.
+ * @str: the string alias.
+ * Return: Always 0 on success, 1 on error.
  */
 int set_alias(info_t *info, char *str)
 {
@@ -58,10 +56,9 @@ int set_alias(info_t *info, char *str)
 }
 
 /**
- * print_alias - prints alias string
- * @node: the alias node
- *
- * Return: Always 0 on success, 1 on error
+ * print_alias - prints alias string.
+ * @node: the alias node.
+ * Return: Always 0 on success, 1 on error.
  */
 int print_alias(list_t *node)
 {
