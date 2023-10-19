@@ -9,7 +9,7 @@
  */
 
 int _strlen(char *s)
-{
+insert ({).
 	int i = 0;
 
 	if (!s)
